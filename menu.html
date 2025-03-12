@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+  <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>The Royal Spoon</title>
+   <link rel="stylesheet" href="styles.css" />
+   <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+   <div class="navbar">
+    <div class="max-width">
+     <div class="navbar-left">
+      <h1 style="color: white;">The Royal Spoon</h1>
+      <ul class="links">
+      <li>
+       <a href="index.html" target="_blank">home</a>
+      </li>
+      <li>
+       <a href="about.html" target="_blank">about</a>
+      </li>
+      <li>
+       <a href="menu.html" target="_blank">Menu</a>
+      </li>
+      <li>
+       <a href="working-times.html" target="_blank">working times</a>
+      </li>
+      <li>
+       <a href="#contact">contact</a>
+      </li>
+      </ul>
+     </div>
+        <div class="icons">
+          <span class="cart">
+            <i class="bx bx-shopping-bag"></i>
+            <span class="cart-badge"> 0 </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <section class="hero">
+      <div class="max-width">
+        <div class="text">
+          <p>Fresh Flavors, Timeless Taste!</p>
+          <h1>Welcome to<span>The Royal Spoon</span>—Where Every Bite Feels Regal!</h1>
+        </div>
+      </div>
+    </section>
+    <div id="cartPopup" class="popup">
+    <div class="popup-content">
+        <h2>Your Cart</h2>
+        <div id="cartItems"></div>
+        <p id="totalAmount">Total: ₹0</p>
+        <button id="checkoutBtn">Checkout</button>
+        <span class="close-btn">&times;</span>
+    </div>
+</div>
+</div>
+<section id="about" class="about">
+      <div class="section-title">
+       <h1>Our Exquisite Menu</h1>
+      </div>
+    <div class="pizza-detail first" data-name="Margherita Pizza" data-price="599">
+          <div class="img">
+            &emsp;&emsp;&emsp;<img src="images/Margherita.webp" alt="Margherita Pizza" />
+          </div>
+          <div class="info">
+            <h1>Margherita Pizza</h1>
+            <ul>
+              <li class="md">
+                <div>
+                  <h4>Medium</h4>
+                  <span class="price-line"></span>
+                  <span class="price">₹599</span>
+                </div>
+                <p>Margherita pizza is known for its ingredients representing the colours of the Italian flag. These ingredients include red tomato sauce, white mozzarella and fresh green basil. When all of these delicious flavours are combined on a hand-kneaded pizza base, a universally-adored pizza is created.<br><br><br>The origins of pizza Margherita came from mixing similar toppings that were already present in Naples between 1796 and 1810. In 1849 Emanuele Rocco recorded different pizza toppings including basil, tomatoes, and thin slices of mozzarella; the mozzarella was thinly sliced, and added to the toppings already present.</p>
+              </li>
+              <li>
+               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        
+        <div class="pizza-detail second" data-name="Classic Burrata Pizza" data-price="599">
+          <div class="info">
+            <h1>Classic Burrata Pizza</h1>
+            <ul>
+              <li class="md">
+                <div>
+                  <h4>Medium</h4>
+                  <span>new</span>
+                  <span class="price-line"></span>
+                  <span class="price">₹599</span>
+                </div>
+                <p>Tomato sauce, Mozzarella cheese, oregano and fresh basil.<br><br>Think of burrata as mozzarella taken to the next level. It starts with fresh mozzarella, which is a semi-soft Italian cheese made from cow milk or (even better) water buffalo milk.,<br>
+Burrata is made by taking fresh mozzarella and forming it into a pouch, then filling it with an extra soft mozzarella and CREAM. It’s pure luxury, and if I were queen, I would eat it every day.</p>
+              </li>
+              <li>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+              </li>
+            </ul>
+          </div>
+          <div class="img">
+            <img src="images/Classic-Burrata.webp" alt="Classic Burrata Pizza" />
+          </div>
+        </div>
+        
+        
+        
+        <div class="pizza-detail third" data-name="Capricciosa Pizza" data-price="599">
+          <div class="img">
+            <img src="images/Capricciosa.png" alt="Capricciosa Pizza" />
+          </div>
+          <div class="info">
+            <h1>Capricciosa Pizza</h1>
+            <ul>
+              <li class="md">
+                <div>
+                  <h4>Medium</h4>
+                  <span class="price-line"></span>
+                  <span class="price">₹599</span>
+                </div>
+                <p>Tomato sauce, Mozzarella cheese, oregano and fresh basil.<br><br>Pizza capricciosa is a style of pizza in Italian cuisine prepared with mozzarella cheese, prosciutto, mushrooms (usually champignons), green and black olives, artichokes, and tomatoes. A variant includes anchovies. Although pizza capricciosa has similar ingredients to pizza quattro stagioni, they are arranged differently.</p>
+              </li>
+              <li> 
+               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <button class="add-to-cart-btn">add to cart</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menus" class="menus">
+      <div class="max-width">
+        <div class="section-title">
+          <p>Fan Favorites from Our Kitchen</p>
+          <h1>Our most loved dishes, crafted to perfection.</h1>
+        </div>
+        
+        
+        
+        <div class="section-title">
+        <h3>PIZZA</h3>
+        </div>
+        <div class="menu-items">
+          <div class="menu"data-name="Pepperoni Pizza" data-price="799">
+            <div class="menu-img">
+              <img src="images/pizza-1.png" alt="Pepperoni Pizza" />
+              <span class="price">₹799</span>
+            </div>
+            <h3>Pepperoni Pizza</h3>
+            <p>
+              Topped with spicy pepperoni and cheese.
+            </p>
+
+          &emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="BBQ Chicken Pizza" data-price="749">
+            <div class="menu-img">
+              <img src="images/pizza-2.png" alt="BBQ Chicken Pizza" />
+              <span class="price">₹749</span>
+            </div>
+            <h3>BBQ Chicken Pizza</h3>
+            <p>
+              Smoky BBQ sauce with grilled chicken and onions.
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Veggie Supreme Pizza" data-price="899">
+            <div class="menu-img">
+              <img src="images/pizza-3.png" alt="Veggie Supreme Pizza" />
+              <span class="price">₹899</span>
+            </div>
+            <h3>Veggie Supreme Pizza</h3>
+            <p>
+              Packed with mushrooms, bell peppers, olives, and onions.
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Four Cheese Pizza" data-price="849">
+            <div class="menu-img">
+              <img src="images/pizza-2.png" alt="Four Cheese Pizza" />
+              <span class="price">₹849</span>
+            </div>
+            <h3>Four Cheese Pizza </h3>
+            <p>
+              A rich blend of mozzarella, parmesan, gorgonzola, and ricotta cheese.
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+        </div>
+     
+        
+        
+    <div class="section-title">
+        <h3>BURGERS</h3>
+        </div>
+        <div class="menu-items">
+          <div class="menu"data-name="Truffle Wagyu Burger" data-price="799">
+            <div class="menu-img">
+              <img src="images\burger.11.jpg" alt="" />
+              <span class="price">₹799</span>
+            </div>
+            <h3>Truffle Wagyu Burger</h3>
+            <p>
+              Wagyu patty, truffle mayo, brioche bun
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Lobster Roll Burger" data-price="899">
+            <div class="menu-img">
+              <img src="images\burger.22.jpg" alt="Lobster Roll Burger" />
+              <span class="price">₹899</span>
+            </div>
+            <h3>Lobster Roll Burger</h3>
+            <p>
+              Buttered lobster, lettuce, brioche roll
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="BBQ Pulled Pork Burger" data-price="599">
+            <div class="menu-img">
+              <img src="images\burger.33.jpg" alt="BBQ Pulled Pork Burger" />
+              <span class="price">₹599</span>
+            </div>
+            <h3>BBQ Pulled Pork Burger</h3>
+            <p>
+             Slow-cooked pork, smoky BBQ sauce
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Black Angus Cheeseburger" data-price="699">
+            <div class="menu-img">
+              <img src="images\burger.55.jpg" alt="Black Angus Cheeseburger" />
+              <span class="price">₹699</span>
+            </div>
+            <h3>Black Angus Cheeseburger</h3>
+            <p>
+              Juicy Angus beef, cheddar, caramelized onions.
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+        </div>
+        
+        
+<div class="section-title">
+        <h3>DRINKS</h3>
+        </div>
+        <div class="menu-items">
+          <div class="menu"data-name="Gold Leaf Cappuccino" data-price="499">
+            <div class="menu-img">
+              <img src="images\drink.1.jpg" alt="Gold Leaf Cappuccino" />
+              <span class="price">₹499</span>
+            </div>
+            <h3>Gold Leaf Cappuccino</h3>
+            <p>
+              Espresso, gold flakes, creamy froth, Madagascar vanilla.
+            </p>
+          &emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Molecular Berry Mojito" data-price="549">
+            <div class="menu-img">
+              <img src="images\drink.2.jpg" alt="Molecular Berry Mojito" />
+              <span class="price">₹549</span>
+            </div>
+            <h3>Molecular Berry Mojito</h3>
+            <p>
+              White rum, fresh mint, berry foam, nitrogen mist, lime zest
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Exotic Matcha Latte" data-price="649">
+            <div class="menu-img">
+              <img src="images\drink33.jpg" alt="Exotic Matcha Latte" />
+              <span class="price">₹649</span>
+            </div>
+            <h3>Exotic Matcha Latte</h3>
+            <p>
+             Lemon juice, saffron-infused syrup, soda, honey drizzle 
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Sparkling Saffron Lemonade" data-price="449">
+            <div class="menu-img">
+              <img src="images\drink.6.jpg" alt="Sparkling Saffron Lemonade" />
+              <span class="price">₹449</span>
+            </div>
+            <h3>Sparkling Saffron Lemonade</h3>
+            <p>
+              Lemon, Saffron, Soda.
+            </p>
+&emsp;&emsp;&emsp;&emsp;<button class="add-to-cart-btn">add to cart</button>
+          </div>
+        </div>
+        
+        
+        
+<div class="section-title">
+        <h3>SNACKS</h3>
+        </div>
+        <div class="menu-items">
+          <div class="menu"data-name="Truffle Parmesan Fries" data-price="449">
+            <div class="menu-img">
+              <img src="images\snack.1.jpg" alt="" />
+              <span class="price">₹449</span>
+            </div>
+            <h3>Truffle Parmesan Fries</h3>
+            <p>
+              Crispy fries, truffle oil, parmesan
+            </p>
+                  &emsp;&emsp;&emsp;&emsp;  <button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Caviar Bruschetta" data-price="899">
+            <div class="menu-img">
+              <img src="images/\snack.2.jpg" alt="Caviar Bruschetta" />
+              <span class="price">₹899</span>
+            </div>
+            <h3>Caviar Bruschetta</h3>
+            <p>
+              Caviar, cream cheese, toasted bread
+            </p>
+&emsp;&emsp;&emsp;&emsp;
+<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Foie Gras Sliders" data-price="999">
+            <div class="menu-img">
+              <img src="images\snack.3.jpg" alt="Foie Gras Sliders" />
+              <span class="price">₹999</span>
+            </div>
+            <h3>Foie Gras Sliders</h3>
+            <p>
+              Mini sliders with foie gras, fig jam
+            </p>
+&emsp;&emsp;&emsp;&emsp;
+<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Tandoori Lobster Bites" data-price="999">
+            <div class="menu-img">
+              <img src="images\snack.5.jpg" alt="Tandoori Lobster Bites" />
+              <span class="price">₹999</span>
+            </div>
+            <h3>Tandoori Lobster Bites</h3>
+            <p>
+              Spiced lobster, saffron aioli
+            </p>&emsp;&emsp;&emsp;&emsp;
+<button class="add-to-cart-btn">add to cart</button>
+          </div>
+        </div>
+
+<div class="section-title">
+        <h3>DESERT</h3>
+        </div>
+        <div class="menu-items">
+          <div class="menu"data-name="Gulab Jamun" data-price="349">
+            <div class="menu-img">
+              <img src="images\gulabjamun.webp" alt="" />
+              <span class="price">₹349</span>
+            </div>
+            <h3>Gulab Jamun</h3>
+            <p>
+              Mawa, Sugar, Flour, Ghee
+            </p>
+                  &emsp;&emsp;&emsp;&emsp;  <button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Rasgulla" data-price="299">
+            <div class="menu-img">
+              <img src="images\rasgulla.jpg" alt="Caviar Bruschetta" />
+              <span class="price">₹299</span>
+            </div>
+            <h3>Rasgulla</h3>
+            <p>
+              Chhena, Sugar, Water, Cardamom
+            </p>
+&emsp;&emsp;&emsp;&emsp;
+<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Jalebi" data-price="499">
+            <div class="menu-img">
+              <img src="images\jalebi.webp" alt="Foie Gras Sliders" />
+              <span class="price">₹499</span>
+            </div>
+            <h3>Jalebi</h3>
+            <p>
+              Maida, Sugar, Curd, Oil
+            </p>
+&emsp;&emsp;&emsp;&emsp;
+<button class="add-to-cart-btn">add to cart</button>
+          </div>
+          <div class="menu"data-name="Kheer" data-price="349">
+            <div class="menu-img">
+              <img src="images\kheer.jpg" alt="Tandoori Lobster Bites" />
+              <span class="price">₹349</span>
+            </div>
+            <h3>Kheer</h3>
+            <p>
+              Rice, Milk, Sugar, Cardamom
+            </p>&emsp;&emsp;&emsp;&emsp;
+<button class="add-to-cart-btn">add to cart</button>
+          </div>
+        </div>
+
+       </div>
+<footer>
+          <ul>
+            <li><p style="color: white;">&copy; 2024, All rights reserved.</p></li>
+            <li><h1 style="color: white;">The Royal Spoon</h1></li>
+            <li>
+              <span style="color: white;"><i class="bx bxl-facebook-circle"></i></span>
+              <span style="color: white;"><i class="bx bxl-instagram"></i></span>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
